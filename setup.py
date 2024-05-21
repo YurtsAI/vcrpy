@@ -58,7 +58,7 @@ install_requires = [
     # Workaround for Poetry with CPython >= 3.10, problem description at:
     # https://github.com/kevin1024/vcrpy/pull/826
 #    "urllib3; platform_python_implementation !='PyPy' and python_version >='3.10'",
-    "urllib3",
+    "urllib3; >= 2",
 ]
 
 extras_require = {
