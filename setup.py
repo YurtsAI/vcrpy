@@ -46,7 +46,7 @@ install_requires = [
     "PyYAML",
     "wrapt",
     "yarl",
-    "urllib3; >= 2",
+    "urllib3",
 ]
 
 extras_require = {
